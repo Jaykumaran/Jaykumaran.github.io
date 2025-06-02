@@ -1,3 +1,7 @@
+---
+permalink: /blogs/
+title: "Blogs"
+---
 
 ### Technical Articles [at] LearnOpenCV:
 
