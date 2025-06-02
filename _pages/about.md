@@ -3,6 +3,28 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I'm Jaykumaran, Computer Vision Engineer at OpenCV University. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Areas of Interest: Computer Vision, Robotics Perception, SLAM
+
+### Technical Articles [at] LearnOpenCV:
+
+GenAI and VLMs
+- [LightRAG](https://learnopencv.com/lightrag/)
+- [GraphRAG](https://learnopencv.com/author/jayakumaran/)
+- [Multimodal RAG with ColPali](https://learnopencv.com/multimodal-rag-with-colpali/)
+- [Molmo VLM](https://learnopencv.com/molmo-vlm/)
+
+Deep Learning
+- [Depth Pro](https://learnopencv.com/dust3r-geometric-3d-vision/)
+- [Training CLIP from Scratch](https://learnopencv.com/clip-model/)
+- [Small Object Detection with Faster RCNN](https://learnopencv.com/fine-tuning-faster-r-cnn/)
+
+3D Computer Vision
+- [3D U-Net](https://learnopencv.com/3d-u-net-brats/)
+- [MASt3R](https://learnopencv.com/mast3r-sfm-grounding-image-matching-3d/)
+- [DUSt3R](https://learnopencv.com/dust3r-geometric-3d-vision/)
+  
+Robotics
+- [Vision Language Action Models](https://learnopencv.com/vision-language-action-models-lerobot-policy/)
+
