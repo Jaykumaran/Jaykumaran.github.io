@@ -3,9 +3,21 @@ permalink: /about/
 title: "About"
 ---
 
-I'm Jaykumaran, Computer Vision Engineer at OpenCV University. 
+I'm Jaykumaran R, Computer Vision Engineer at OpenCV University. 
 
-Areas of Interest: Computer Vision, Robotics Perception, SLAM
+[View Resume](https://drive.google.com/file/d/1r6E3PKydQ3kK_9CXl6WCTPY3yNvg6lic/view?usp=sharing)
+
+
+**Areas of Interest**: Computer Vision, Robotics Perception, SLAM
+
+### Technical Skills
+
+- **Tools and Frameworks**: Python, PyTorch, OpenCV, HuggingFace, ROS2
+- **GenAI**: RAG, LLM fine-tune, Vision Language Models.
+- **Computer Vision**: Object Detection, Segmentation, Monocular Depth
+- **Hardware**: Raspberry Pi, Luxonis OAK-D
+- **Familiar with**: 3D Reconstruction (SfM), Distributed Multi-GPU Setups.
+
 
 ### Technical Articles [at] LearnOpenCV:
 
