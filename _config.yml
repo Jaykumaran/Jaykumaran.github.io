@@ -13,16 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Jayakumaran R Portfolio
+email: jaykumaran2217@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Hi, I'm Jayakumaran, a Deep Learning and Computer vision Enthusiast.
+# twitter_username: Tamizh17Ar # Using full URL in author.links and footer.links instead
+github_username: Jaykumaran # Your GitHub username
+minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
+
+# Site Base URL settings - VERY IMPORTANT for GitHub Pages
+url: "https://Jaykumaran.github.io" # Replace Jaykumaran with your GitHub username if different
+baseurl: "" # For a user/organization site (username.github.io), this is an empty string or /
+repository: Jaykumaran/Jaykumaran.github.io # Replace Jaykumaran with your GitHub username if different
 
 # Build settings
 markdown: kramdown
@@ -31,7 +34,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones (e.g. America/New_York)
 
 include:
   - _pages
@@ -58,34 +61,44 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Jayakumaran R"
+  avatar : "/assets/images/bio-photo.jpg" # IMPORTANT: Upload your photo here or change the path
+  bio    : "Deep Learning and Computer Vision Enthusiast. Welcome to my portfolio!" # A short bio for the sidebar
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email" # Optional
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jaykumaran2217@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jayakumaran-r17/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Jaykumaran"
+    - label: "X (Twitter)" # Changed from Twitter to X, or you can keep "Twitter"
+      icon: "fab fa-fw fa-x-twitter" # Font Awesome icon for X, or use "fab fa-fw fa-twitter-square" for old logo
+      url: "https://x.com/Tamizh17Ar"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/your_instagram_username"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://your_personal_website.com"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jayakumaran-r17/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Jaykumaran"
+    - label: "X (Twitter)"
+      icon: "fab fa-fw fa-x-twitter" # Or "fab fa-fw fa-twitter-square"
+      url: "https://x.com/Tamizh17Ar"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/your_instagram_username"
 
 defaults:
   # _posts
@@ -94,18 +107,18 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: true # Show author profile sidebar on posts
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: true # Enable comments on posts
+      share: true # Show social share buttons
+      related: true # Show related posts
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: single # Default layout for pages
+      author_profile: true # Show author profile sidebar on pages
 
 category_archive:
   type: liquid
