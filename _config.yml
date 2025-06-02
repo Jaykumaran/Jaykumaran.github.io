@@ -38,6 +38,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones (e.g. A
 
 include:
   - _pages
+  - _projects # Make sure Jekyll processes your _projects folder
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -60,6 +61,13 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Collections
+collections:
+  projects: # Name of your collection
+    output: true # Generate individual pages for each project
+    permalink: /projects/:path/ # URL structure for project pages (e.g., yoursite.com/projects/project-name/)
+    # You could also use /portfolio/:path/ if you prefer that URL slug
+
 author:
   name   : "Jayakumaran R"
   avatar : "/assets/images/bio_photo_avatar.jpg" # IMPORTANT: Upload your photo here or change the path
@@ -79,8 +87,7 @@ author:
       url: "https://x.com/Tamizh17Ar"
     - label: "Resume"
       icon: "fas fa-fw fa-file-pdf"
-      url: "https://drive.google.com/file/d/1r6E3PKydQ3kK_9CXl6WCTPY3yNvg6lic/view"
-
+      url: "https://drive.google.com/file/d/1r6E3PKydQ3kK_9CXl6WCTPY3yNvg6lic/view" # Consider adding target="_blank" if theme supports it, or link from content
 
 footer:
   links:
@@ -100,7 +107,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "" # An empty path means all files in the project
       type: posts
     values:
       layout: single
@@ -116,6 +123,17 @@ defaults:
     values:
       layout: single # Default layout for pages
       author_profile: true # Show author profile sidebar on pages
+  # _projects << NEW DEFAULTS SECTION FOR YOUR PROJECTS COLLECTION
+  - scope:
+      path: "_projects" # Target files within the _projects folder
+      type: projects # Must match the collection name
+    values:
+      layout: single # Default layout for individual project pages
+      author_profile: true # Show your sidebar
+      share: true # Optional: show share buttons
+      # related: true # Optional: if you use tags/categories for projects
+      # You can add other default front matter for projects here,
+      # e.g., default_status: "In Progress"
 
 category_archive:
   type: liquid
