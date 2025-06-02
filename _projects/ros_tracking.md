@@ -2,7 +2,7 @@
 # _projects/ros-object-tracking.md
 
 title: "ROS Object Tracking Package"
-excerpt: "A ROS2 package for object detection (YOLOv10) and tracking (OpenCV Kalman filter)." # Short description for the card
+excerpt: "A ROS2 package for object detection (YOLO11) and tracking (OpenCV Kalman filter)." # Short description for the card
 
 image: /assets/images/project_assets/ros_tracking_demo.gif # Teaser image for the card. Ensure this path is correct and starts with /
 # Consider using a static JPG/PNG for the card teaser if this GIF is large or long, for better page load on the projects list.
