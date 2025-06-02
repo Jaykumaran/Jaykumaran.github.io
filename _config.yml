@@ -62,7 +62,7 @@ plugins:
 
 author:
   name   : "Jayakumaran R"
-  avatar : "/assets/images/bio-photo.jpg" # IMPORTANT: Upload your photo here or change the path
+  avatar : "/assets/images/bio_photo_avatar.jpg" # IMPORTANT: Upload your photo here or change the path
   bio    : "Deep Learning and Computer Vision Enthusiast. Welcome to my portfolio!" # A short bio for the sidebar
   links:
     - label: "Email" # Optional
