@@ -11,6 +11,7 @@ github_url: "https://github.com/Jaykumaran/Robotics/tree/main/ros_tracking_packa
 # live_demo_url: "URL_TO_LIVE_DEMO_IF_ANY" # Uncomment and add URL if you have one
 
 technologies:
+  - Docker image
   - ROS2 (Humble)
   - C++
   - Python
@@ -47,6 +48,7 @@ A key feature includes a loop detection logic for continuous camera feed simulat
 *   **Simulated Environment:** Works with video files as a simulated camera source.
 *   **Continuous Loop Simulation:** Handles video looping and tracker ID resets.
 *   **Visualization:** Integrates with `rqt_image_viewer`.
+*  **Docker** file
 
 **Key Technical Choices:**
 *   **Object Detection:** YOLOv11n (COCO pre-trained `.onnx` model) with OpenCV DNN for optimized CPU inference. Achieved ~10-12 FPS on an i5 13th gen CPU.
