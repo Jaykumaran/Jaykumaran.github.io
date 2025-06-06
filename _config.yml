@@ -84,7 +84,7 @@ author:
       url: "https://github.com/Jaykumaran"
     - label: "X (Twitter)" # Changed from Twitter to X, or you can keep "Twitter"
       icon: "fab fa-fw fa-x-twitter" # Font Awesome icon for X, or use "fab fa-fw fa-twitter-square" for old logo
-      url: "https://x.com/Tamizh17Ar"
+      url: "https://x.com/JaykumaranR17"
     - label: "Resume"
       icon: "fas fa-fw fa-file-pdf"
       url: "https://drive.google.com/file/d/1r6E3PKydQ3kK_9CXl6WCTPY3yNvg6lic/view" # Consider adding target="_blank" if theme supports it, or link from content
@@ -99,7 +99,7 @@ footer:
       url: "https://github.com/Jaykumaran"
     - label: "X (Twitter)"
       icon: "fab fa-fw fa-x-twitter" # Or "fab fa-fw fa-twitter-square"
-      url: "https://x.com/Tamizh17Ar"
+      url: "https://x.com/JaykumaranR17"
     - label: "Resume"
       icon: "fas fa-fw fa-file-pdf"
       url: "https://drive.google.com/file/d/1r6E3PKydQ3kK_9CXl6WCTPY3yNvg6lic/view"
